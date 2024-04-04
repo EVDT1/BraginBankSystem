@@ -1,5 +1,5 @@
 package data;
-public class Client {
+public class Client{
     private String name;
     private String surname;
     private String card;
