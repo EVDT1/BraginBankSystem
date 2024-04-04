@@ -12,6 +12,10 @@ public class Client{
         this.name = name;
 
     }
+    public static void Client (String[] args){
+        bank.Card firstCard = new bank.Card( 2200700858097666L);
+        System.out.println("Номер карты:" + firstCard.getCARD_NUMBER());
+        }
 
     public void setSurname(String surname) {
         this.surname = surname;
